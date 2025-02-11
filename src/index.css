@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+    --color-marine-blue: hsl(213, 96%, 18%);
+}
+
+@utility mobile-header-bg {
+    background: url('assets/images/bg-sidebar-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @utility desktop-header-bg {
+    background: url('assets/images/bg-sidebar-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+@utility step {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+@utility active-step {
+    background-color: hsl(206, 94%, 87%);
+    color: hsl(213, 96%, 18%);
+    border: none;
+}
+
+@utility ubuntu-regular {
+    font-family: "Ubuntu", serif;
+    font-style: normal;
+  }
+
+.cat {
+    align-items: center;
+    justify-content: center;
+}
