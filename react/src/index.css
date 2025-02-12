@@ -2,6 +2,10 @@
 
 @theme {
     --color-marine-blue: hsl(213, 96%, 18%);
+    --color-light-gray: hsl(229, 24%, 87%);
+    --color-magnolia: hsl(217, 100%, 97%);
+    --color-alabaster: hsl(231, 100%, 99%);
+
 }
 
 @utility mobile-header-bg {
@@ -44,3 +48,4 @@
     align-items: center;
     justify-content: center;
 }
+

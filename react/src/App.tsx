@@ -19,7 +19,7 @@ function App() {
               }  text-white p-3 w-[150px] font-bold rounded-md`}
               onClick={onPrevious}
             >
-              Previous Step
+              Go Back
             </button>
           </div>
           <div className="">

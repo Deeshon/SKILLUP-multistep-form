@@ -3,18 +3,24 @@ export const PLANS = [
         image: 'assets/images/icon-arcade.svg',
         value: 'arcade',
         title: 'Arcade',
-        price: '$9/mo'
+        monthlyPrice: '$9/mo',
+        yearlyPrice: '$90/yr',
+        yearlyTag: '2 months free'
     },
     {
         image: 'assets/images/icon-advanced.svg',
         value: 'advanced',
         title: 'Advanced',
-        price: '$12/mo'
+        monthlyPrice: '$12/mo',
+        yearlyPrice: '$120/yr',
+        yearlyTag: '2 months free'
     },
     {
         image: 'assets/images/icon-pro.svg',
         value: 'pro',
         title: 'Pro',
-        price: '$15/mo'
+        monthlyPrice: '$15/mo',
+        yearlyPrice: '$150/yr',
+        yearlyTag: '2 months free'
     }
 ]

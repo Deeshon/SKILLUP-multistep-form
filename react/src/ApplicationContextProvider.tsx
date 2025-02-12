@@ -15,16 +15,19 @@ const ApplicationContext = createContext({
 export const ApplicationContextProvider = ({children} : {children: ReactElement}) => {
     const [form] = useForm();
     const [formData, setFormData] = useState([])
-    const [current, setCurrent] = useState(2);
+    const [current, setCurrent] = useState(1);
 
     const onNext = () => {
-        form.validateFields()
-        .then((values) => {
-            console.log({values})
-            setCurrent((prevState) => (prevState === 4 ? prevState : prevState + 1));
-            setFormData({...formData, ...values})
-            console.log("formDAta", {...formData, ...values})
-        }).catch((err) => console.error(err))
+        // form.validateFields()
+        // .then((values) => {
+        //     console.log({values})
+        //     setCurrent((prevState) => (prevState === 4 ? prevState : prevState + 1));
+        //     setFormData({...formData, ...values})
+        //     console.log("formDAta", {...formData, ...values})
+        // }).catch((err) => console.error(err))
+
+        setCurrent((prevState) => (prevState === 4 ? prevState : prevState + 1));
+
     }
 
     const onPrevious = () => {
